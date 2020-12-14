@@ -3,6 +3,7 @@ package com.gavril.service;
 import com.gavril.dao.StudentDao;
 import com.gavril.entity.Student;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;
@@ -11,6 +12,7 @@ import java.util.Collection;
 public class StudentService {
 
     @Autowired
+    @Qualifier("fakeData")
     private StudentDao studentDao;
 
     public Collection<Student> getStudents() {

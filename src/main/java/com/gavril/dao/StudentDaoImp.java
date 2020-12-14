@@ -1,6 +1,7 @@
 package com.gavril.dao;
 
 import com.gavril.entity.Student;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Repository;
 
 import java.util.Collection;
@@ -8,6 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Repository
+@Qualifier("fakeData")
 public class StudentDaoImp implements StudentDao {
     private static final Map<Integer, Student> students;
 
