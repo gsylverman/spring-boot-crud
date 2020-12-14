@@ -1,4 +1,4 @@
-package com.gavril.Entity;
+package com.gavril.entity;
 
 public class Student {
     private int id;

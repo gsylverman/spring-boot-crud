@@ -1,8 +1,7 @@
-package com.gavril.Dao;
+package com.gavril.dao;
 
-import com.gavril.Entity.Student;
+import com.gavril.entity.Student;
 import org.springframework.stereotype.Repository;
-import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.Collection;
 import java.util.HashMap;

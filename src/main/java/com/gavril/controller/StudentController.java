@@ -1,7 +1,7 @@
-package com.gavril.Controller;
+package com.gavril.controller;
 
-import com.gavril.Entity.Student;
-import com.gavril.Service.StudentService;
+import com.gavril.entity.Student;
+import com.gavril.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;

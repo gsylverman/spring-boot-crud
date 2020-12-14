@@ -1,7 +1,7 @@
-package com.gavril.Service;
+package com.gavril.service;
 
-import com.gavril.Dao.StudentDao;
-import com.gavril.Entity.Student;
+import com.gavril.dao.StudentDao;
+import com.gavril.entity.Student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
